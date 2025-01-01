@@ -1,5 +1,3 @@
-print("새로운 프로젝트")
-
 import os
 
 def printApiKey():
@@ -12,5 +10,5 @@ def printApiKey():
     else:
         print("OPENAI_API_KEY 환경 변수가 설정되지 않았습니다.")
 
-# 함수 실행
+
 printApiKey()
